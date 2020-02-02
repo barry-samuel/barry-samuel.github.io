@@ -1,5 +1,0 @@
-<html>
-<body>
-<h1><b>Beep!</b></h1>
-</body>
-</html>
