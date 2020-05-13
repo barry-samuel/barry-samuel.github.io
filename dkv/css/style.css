@@ -38,7 +38,7 @@ header {
 }*/
 
 .footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 5px;
     width: 100vw;
@@ -204,6 +204,13 @@ header {
 }
 
 @media screen and (max-width: 800px) {
+    .main-content h1 {
+        font-size: 2rem;
+    }
+    
+    .main-content .h1-second {
+        -webkit-text-stroke-width: 0.8px;
+    }
     .about-box {
         margin-bottom: 10px;
     }
