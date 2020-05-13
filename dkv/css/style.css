@@ -209,7 +209,7 @@ header {
     }
     
     .main-content .h1-second {
-        -webkit-text-stroke-width: 0.8px;
+        -webkit-text-stroke-width: 0.5px;
     }
     .about-box {
         margin-bottom: 10px;
