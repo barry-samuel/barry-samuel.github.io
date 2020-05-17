@@ -15,7 +15,6 @@
         <link href="fonts.googleapis.com/css2?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet" type="text/css">
         <link href="css/menu.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.css">
 	</head>
 	<body>
         <header>
@@ -41,22 +40,28 @@
         <div class="works-content">
             <div class="works-container works-content-inner">
                 <h1>PHOTOGRAPHY</h1>
-                <div class="carousel" data-flickity='{ "lazyLoad": true }'>
-                    <div class="carousel-cell">
-                      <img class="carousel-cell-image" data-flickity-lazyload="../dkv/img/A.jpg"/>
+                <div class="wrapper">
+                    <nav class="lil-nav">
+                      <a href="#image-1">
+                        <img class="lil-nav__img" src="../dkv/img/A.jpg" alt="Pasar Lama, Tangerang" />
+                      </a>
+                      <a href="#image-2">
+                        <img class="lil-nav__img" src="../dkv/img/B.jpg" alt="Pasar Lama, Tangerang" />
+                      </a>
+                      <a href="#image-3">
+                        <img class="lil-nav__img" src="../dkv/img/C.jpg" alt="Pasar Lama, Tangerang" />
+                      </a>
+                    </nav>
+                    <div class="gallery">
+                      <img class="gallery__img" id="image-1" src="../dkv/img/A.jpg" alt="Pasar Lama, Tangerang" />
+                      <img class="gallery__img" id="image-2" src="../dkv/img/B.jpg" alt="Pasar Lama, Tangerang" />
+                      <img class="gallery__img" id="image-3" src="../dkv/img/C.jpg" alt="Pasar Lama, Tangerang" />
                     </div>
-                    <div class="carousel-cell">
-                      <img class="carousel-cell-image" data-flickity-lazyload="../dkv/img/B.jpg"/>
-                    </div>
-                    <div class="carousel-cell">
-                      <img class="carousel-cell-image" data-flickity-lazyload="../dkv/img/C.jpg"/>
-                    </div>
-                </div>
+                  </div>
             </div>
             <footer class="footer">
                 <p>Copyright&copy; 2020 Barry Samuel. All rights reserverd.</p>
             </footer>
-            <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
         </div>
 	</body>
 </html>
