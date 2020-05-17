@@ -14,7 +14,8 @@
         <link href="fonts.googleapis.com/css2?family=Open+Sans:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet"> 
         <link href="fonts.googleapis.com/css2?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet" type="text/css">
-		<link href="css/menu.css" rel="stylesheet" type="text/css">
+        <link href="css/menu.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.css">
 	</head>
 	<body>
         <header>
@@ -38,17 +39,24 @@
             </div>
         </header>
         <div class="works-content">
-            <div class="container works-content-inner">
+            <div class="works-container works-content-inner">
                 <h1>PHOTOGRAPHY</h1>
-                <div class="img-container">
-                    <img src="img/A.jpg">
-                    <img src="img/B.jpg">
-                    <img src="img/C.jpg">
+                <div class="carousel" data-flickity='{ "lazyLoad": 1 }'>
+                    <div class="carousel-cell">
+                      <img class="carousel-cell-image" data-flickity-lazyload="../dkv/img/A.jpg"/>
+                    </div>
+                    <div class="carousel-cell">
+                      <img class="carousel-cell-image" data-flickity-lazyload="../dkv/img/B.jpg"/>
+                    </div>
+                    <div class="carousel-cell">
+                      <img class="carousel-cell-image" data-flickity-lazyload="../dkv/img/C.jpg"/>
+                    </div>
                 </div>
             </div>
             <footer class="footer">
                 <p>Copyright&copy; 2020 Barry Samuel. All rights reserverd.</p>
             </footer>
+            <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
         </div>
 	</body>
 </html>
