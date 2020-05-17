@@ -224,6 +224,7 @@ header {
     list-style: none;
     font-size: 1.5rem;
     padding: 0.2rem;
+    font-style: 'Open Sans', sans-serif;
     font-weight: 500;
     font-style: normal;
 }
@@ -254,7 +255,7 @@ header {
     .main-content .h1-second {
         -webkit-text-stroke-width: 0.5px;
     }
-    
+
     .about-box {
         margin-bottom: 10px;
     }
